@@ -27,5 +27,6 @@ int main()
       else numBin = "1" + numBin;
       quotient = quotient / 2;
   }
+  cout << "Here comes what you were looking for:" << endl;
   cout << numDec << " in binary = " << numBin;
 }
